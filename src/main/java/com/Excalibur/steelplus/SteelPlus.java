@@ -1,5 +1,6 @@
 package com.Excalibur.steelplus;
 
+import com.Excalibur.block.ModBlocks;
 import com.Excalibur.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -35,7 +36,7 @@ public class SteelPlus {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
 
 
 
@@ -53,8 +54,14 @@ public class SteelPlus {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.DARK_SWORD);
+            event.accept(ModItems.RAW_CARBONITE);
+    }
+
+    if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+        event.accept(ModBlocks.STEEL_BLOCK);
+    }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

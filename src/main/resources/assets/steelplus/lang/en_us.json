@@ -1,3 +1,6 @@
 {
-  "item.steelplus.darksword" : "Dark Sword"
+  "item.steelplus.darksword" : "Dark Sword",
+  "item.steelplus.raw_carbonite" : "Raw Carbonite",
+
+  "block.steelplus.steel_block" : "Steel Block"
 }
