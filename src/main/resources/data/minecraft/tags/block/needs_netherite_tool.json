@@ -1,0 +1,7 @@
+{
+  "replace" : false,
+  "values" : [
+    "steelplus:steel_block",
+    "steelplus:carbonite_deepslate_ore"
+  ]
+}

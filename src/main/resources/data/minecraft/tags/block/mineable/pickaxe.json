@@ -1,0 +1,9 @@
+{
+  "replace" : false,
+  "values" : [
+    "steelplus:steel_block",
+    "steelplus:raw_carbonite_block",
+    "steelplus:carbonite_ore",
+    "steelplus:carbonite_deepslate_ore"
+  ]
+}

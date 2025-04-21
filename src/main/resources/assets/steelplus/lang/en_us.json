@@ -5,6 +5,8 @@
 
   "block.steelplus.steel_block" : "Steel Block",
   "block.steelplus.raw_carbonite_block" : "Raw Carbonite Block",
+  "block.steelplus.carbonite_ore" : "Carbonite Ore",
+  "block.steelplus.carbonite_deepslate_ore" : "Carbonite Deepslate Ore",
 
   "creativetab.steelplus.steelplus_items" : "SteelPlus Items",
   "creativetab.steelplus.steelplus_tools" : "SteelPlus Tools",

@@ -66,6 +66,8 @@ public class SteelPlus {
     if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
         event.accept(ModBlocks.STEEL_BLOCK);
         event.accept(ModBlocks.RAW_CARBONITE_BLOCK);
+        event.accept(ModBlocks.CARBONITE_ORE);
+        event.accept(ModBlocks.CARBONITE_DEEPSLATE_ORE);
     }
     }
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus-rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "steelplus:raw_carbonite_block"
+        }
+      ],
+      "rolls" : 1.0
+    }
+  ],
+  "random_sequence": "steelplus:blocks/raw_carbonite_block"
+}
