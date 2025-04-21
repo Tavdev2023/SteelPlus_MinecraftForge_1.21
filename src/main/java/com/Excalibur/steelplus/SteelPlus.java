@@ -1,6 +1,7 @@
 package com.Excalibur.steelplus;
 
 import com.Excalibur.block.ModBlocks;
+import com.Excalibur.item.ModCreativeModeTabs;
 import com.Excalibur.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -34,6 +35,8 @@ public class SteelPlus {
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
