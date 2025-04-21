@@ -26,7 +26,7 @@ public class ModBlocks {
     // New Blocks here
     public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(15f).requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+                    .strength(20f).requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
 
     public static final RegistryObject<Block> RAW_CARBONITE_BLOCK = registerBlock("raw_carbonite_block",
             () -> new Block(BlockBehaviour.Properties.of()

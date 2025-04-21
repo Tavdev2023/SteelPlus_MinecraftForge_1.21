@@ -42,6 +42,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.STEEL_BLOCK.get());
                         output.accept(ModBlocks.RAW_CARBONITE_BLOCK.get());
+                        output.accept(ModBlocks.CARBONITE_ORE.get());
+                        output.accept(ModBlocks.CARBONITE_DEEPSLATE_ORE.get());
 
                     }).build());
 

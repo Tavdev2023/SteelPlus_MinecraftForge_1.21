@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "steelplus:deepslate_carbonite_ore"
+              "name": "steelplus:carbonite_deepslate_ore"
             },
             {
               "type": "minecraft:item",
@@ -48,5 +48,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "steelplus:blocks/deepslate_carbonite_ore"
+  "random_sequence": "steelplus:blocks/carbonite_deepslate_ore"
 }
