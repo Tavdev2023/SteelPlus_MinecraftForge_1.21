@@ -60,10 +60,12 @@ public class SteelPlus {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.DARK_SWORD);
             event.accept(ModItems.RAW_CARBONITE);
+            event.accept(ModItems.CARBONITE_CORE);
     }
 
     if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
         event.accept(ModBlocks.STEEL_BLOCK);
+        event.accept(ModBlocks.RAW_CARBONITE_BLOCK);
     }
     }
 

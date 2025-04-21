@@ -1,8 +1,10 @@
 {
   "item.steelplus.darksword" : "Dark Sword",
   "item.steelplus.raw_carbonite" : "Raw Carbonite",
+  "item.steelplus.carbonite_core" : "Carbonite Core",
 
   "block.steelplus.steel_block" : "Steel Block",
+  "block.steelplus.raw_carbonite_block" : "Raw Carbonite Block",
 
   "creativetab.steelplus.steelplus_items" : "SteelPlus Items",
   "creativetab.steelplus.steelplus_tools" : "SteelPlus Tools",

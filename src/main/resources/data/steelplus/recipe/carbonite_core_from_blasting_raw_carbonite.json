@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.30,
+  "group": "misc",
+  "ingredient": {
+    "item": "steelplus:raw_carbonite"
+  },
+  "result": {
+    "id": "steelplus:carbonite_core"
+  }
+}

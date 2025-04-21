@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameter, output) -> {
 
                         output.accept(ModItems.RAW_CARBONITE.get());
+                        output.accept(ModItems.CARBONITE_CORE.get());
 
                     }).build());
 
@@ -40,6 +41,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameter, output) -> {
 
                         output.accept(ModBlocks.STEEL_BLOCK.get());
+                        output.accept(ModBlocks.RAW_CARBONITE_BLOCK.get());
 
                     }).build());
 

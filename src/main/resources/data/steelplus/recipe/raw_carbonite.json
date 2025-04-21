@@ -1,0 +1,13 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+  "category" : "misc",
+  "ingredients" : [
+    {
+      "item" : "steelplus:raw_carbonite_block"
+    }
+  ],
+  "result" : {
+    "count" : 9,
+    "id" : "steelplus:raw_carbonite"
+  }
+}

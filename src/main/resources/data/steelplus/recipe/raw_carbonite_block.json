@@ -1,0 +1,18 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "key" : {
+    "A" : {
+      "item" : "steelplus:raw_carbonite"
+    }
+  },
+  "pattern" : [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "result" : {
+    "count" : 1,
+    "id" : "steelplus:raw_carbonite_block"
+  }
+}
